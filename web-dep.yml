@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: web-con
-        image: yunchae02/myweb:2
+        image: yunchae02/myweb:1
         ports:
         - containerPort: 80
