@@ -15,4 +15,4 @@ spec:
     spec:
       containers:
       - name: myweb-con
-        image: yunchae02/mynginx:1
+        image: yunchae02/mynginx:8
