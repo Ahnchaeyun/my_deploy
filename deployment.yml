@@ -28,4 +28,4 @@ spec:
     spec:
       containers:
       - name: h-con
-        image: yunchae02/ipnginx:latest
+        image: yunchae02/hnginx:latest
