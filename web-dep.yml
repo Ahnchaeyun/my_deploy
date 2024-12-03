@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: web-dep
-  namespace: my-namespace
 spec:
   replicas: 2
   selector:
@@ -10,11 +9,12 @@ spec:
       app: web-app
   template:
     metadata:
+      name: web-pod
       labels:
         app: web-app
     spec:
       containers:
-      - name: web-container
+      - name: web-con
         image: yunchae02/myweb:1
         ports:
         - containerPort: 80
